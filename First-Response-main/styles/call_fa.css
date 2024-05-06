@@ -1,0 +1,43 @@
+body {
+    font-family: "Balsamiq Sans";
+}
+
+.cont{
+    margin-top: 10px;
+    border: 2px solid #713f97;
+    width: 400px;
+    height: 685px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.title{
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+#map {
+    height: 77%;
+    /* width: 100%; */
+    margin-top: 10px;
+}
+
+#needfa{
+    align-items: center;
+    background-color: #fff3e6;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    width: 90%;
+    height:80px;
+    padding: 20px;
+    font: 400 24px "Balsamiq Sans", Helvetica, Arial, serif;
+    box-shadow: 1px 1px 4px 1px rgba(113, 63, 151, 0.79);
+    color: #713f97;
+    display: flex;
+    font-size: 32px;
+    margin: auto;
+    margin-top: 20px;
+}

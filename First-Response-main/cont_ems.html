@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact EMS</title>
+        <link rel="icon" type="image/svg+xml" href="./imgs/logo.png" />
+        <link rel="stylesheet" href="./styles/cont_ems.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    </head>
+    <body>
+        <div class="cont">
+            <h1 id="title">Nearby Hospitals</h1>
+            <select id="dist-sel" placeholder="Select District"> </select>
+            <button id="find-hosps">Find Hospitals</button>
+            <div id="hospitals-list"></div>
+            <div id="loading-more" style="display: none; text-align: center;">Loading More...</div>
+            <script src="./src/cont_ems.js"></script>
+        </div>
+        <script type="module" src="./src/bundle/cont_ems.bundle.js"></script>
+    </body>
+</html>

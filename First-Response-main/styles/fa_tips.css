@@ -1,0 +1,77 @@
+body {
+    font-family: "Balsamiq Sans";
+}
+ 
+.cont{
+    margin-top: 50px;
+    border: 1px solid #EAE3FF;
+    width: 400px;
+    height: 670px;
+    margin: 0 auto;
+    background-color: #fffbf8;
+    padding: 20px;
+}
+
+
+#title {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 36px;
+    color: #713F97;
+}
+
+#sel{
+    width: 95%;
+    display: block;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 12px 12px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #b786dc;
+    outline: none;
+    font-family: "Balsamiq Sans";
+    color: #8056a0;
+}
+
+#get-tips{
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 110px;
+    color:#000000;
+    border: 2px;
+    border-radius: 2px;
+    background-color: #EAE3FF;
+    font-family: "Balsamiq Sans";
+}
+
+#tips-cont{
+    margin-bottom: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.tip-item h2{
+    font-size: 28px;
+    color: #713F97;
+    margin-bottom: 0px;
+}
+
+.tip-item p{
+    margin-bottom: 0px;
+}
+
+#hh3{
+    font-size: 22px;
+}
+
+#reminder{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}

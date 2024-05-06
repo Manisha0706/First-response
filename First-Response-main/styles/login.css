@@ -1,0 +1,124 @@
+body {
+  font-family: "Balsamiq Sans";
+  color: #fff;
+}
+
+.box{
+  border: 1px solid #F6F3FF;
+  width: 400px;
+  height: auto;
+  margin: 35px auto;
+  background-color: #F6F3FF;
+}
+
+.login {
+  margin: 20px auto;
+  margin-top:20px;
+  padding: 20px 20px;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.login input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 14px 12px;
+  font-size: 16px;
+  border-radius: 2px; 
+  font-family: "Balsamiq Sans";
+  border: 1px solid #c0c0c0;
+  border-color: #A75FDD;
+  outline: none;
+  transition: all .2s ease-in-out;
+}
+
+button[id=myButton] {
+  border: 1px;
+  width: 100%;
+  padding:15px;
+  background: #FFF3E6;
+  color: black;
+  border-radius: 50px;
+  box-shadow: 0px 2px rgb(0, 0, 0, 0.25); 
+  font-size: 24px;
+  transition: 0.2s;
+  margin: 20px 0px;
+  font-family: "Balsamiq Sans";
+}
+
+.login input[type=submit]:hover {
+  background: #ffe0be;  
+}
+
+.login h2 {
+  margin: 10px 0 0; 
+  margin-bottom: 30px;
+  color: #713F97;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.login p {
+  margin-bottom: 40px;
+}
+
+.links {
+  display: table;
+  color:#713F97;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.links a {
+  display: table-cell;
+  padding-top: 10px;
+}
+
+.login h2,
+.login p,
+.login a {
+  text-align: center;    
+}
+
+.login a {
+  text-decoration: none;  
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login a:visited {
+  color: inherit;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+.oauth-buttons{
+  margin-top: 20px;
+  margin-left:30px;
+}
+
+.gimg{
+  margin-left: 30px;
+}
+
+span{
+  margin-left: 135px;
+  color:#713F97;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+  color:#713F97;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top:30px;
+  font-size: 44px;
+}

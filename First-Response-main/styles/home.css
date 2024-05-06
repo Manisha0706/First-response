@@ -1,0 +1,127 @@
+body{
+    font-family:  "Balsamiq Sans", Helvetica, Arial, serif;
+}
+
+.box{
+    margin-top: 10px;
+    border: 2px solid #F6F3FF;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.logo {
+    height: 75px;
+    outline: 1px solid #713f97;
+    outline-offset: -1px;
+    width: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.title_slogan{
+    align-items: center;
+    color: rgb(113, 63, 151);
+    display: flex;
+    font-weight: 400;
+    font-size: 32px;
+    justify-content: center;
+  
+    text-align: center;
+    width: 250px;
+}
+#profile{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 170px;
+    color: #000000;
+    font-size: 24px;
+}
+.help{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: center; */
+    gap:7px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+   
+}
+.call_fa{
+    align-items: center;
+    background-color: #fff3e6;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    width:177px;
+    height:105px;
+    padding: 20px;
+    font: 400 20px "Balsamiq Sans", Helvetica, Arial, serif;
+    box-shadow: 1px 1px 4px 1px rgba(113, 63, 151, 0.508);
+    color: #713f97;
+    font-size: 28px;
+}
+
+.fa_tips{
+    align-items: center;
+    background-color: #ffffff;
+    border-color: #713f97;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    width:359px;
+    height:150px;
+    padding: 20px;
+    font: 500 38px "Balsamiq Sans", Helvetica, Arial, serif;
+    box-shadow: 1px 1px 4px 1px rgba(113, 63, 151, 0.781);
+    color: #000000;
+    display: flex;
+    font-size: 44px;
+}
+.sympcheck{
+    align-items: center;
+    background-color: #F6F3FF;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    width:359px;
+    height:100px;
+    padding: 20px;
+    font: 400 24px "Balsamiq Sans", Helvetica, Arial, serif;
+    box-shadow: 1px 1px 4px 1px rgba(113, 63, 151, 0.79);
+    color: #000000;
+    display: flex;
+    font-size: 32px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap:40px;
+    margin-top:40px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+}

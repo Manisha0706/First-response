@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/formstyles.css" />
+    <link rel="stylesheet" href="./styles/sym.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    <title>Symptom checker</title>
+  </head>
+
+  <body>
+    <div class="cont">
+      <header>
+        <div class="header-row">
+          <div style="display: flex; align-items: center">
+            <img
+              src="./imgs/logo.png"
+              alt="Logo"
+              width="40"
+              height="40"
+              className="d-inline-block align-top mx-2 mh"
+            />
+            <h3 id="title">First Response</h3>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="card">
+          <div style="align-items: center; width: 400px;">
+            <p class="disclaimer">Please contact professional doctor for proper diagnosis!</p>
+            <div class="form-area">
+              <div class="error">
+                Please fill out all fields correctly
+              </div>
+
+              <div class="searchInput">
+                <input type="text" name="year-of-birth" required />
+
+                <label for="year-of-birth" class="label-name">
+                  <span class="content-name"> Year of Birth </span>
+                </label>
+              </div>
+              <div class="searchInput">
+                <label for="gender" class="labelgender">
+                  <span class="content-name">Gender</span>
+                </label>
+              </div>
+              <div class="searchInput">
+                <select id="gender" name="Gender" required>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+
+              <div class="all-symptoms-autogenerate">
+                <div class="dropdown-container">
+                  <div class="searchInput">
+                    <input
+                      class="dropdown"
+                      type="text"
+                      name="Symptoms"
+                      required
+                    />
+
+                    <label for="Symptoms" class="label-name">
+                      <span class="content-name"> Symptoms </span></label
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="dropdown-options">
+                <ul></ul>
+              </div>
+              <div class="add-symptoms">Add More Symptoms</div>
+
+              <button
+                class="mui-contained-button button-see-results"
+                style="margin-bottom: 30px; font-size: large;" >
+                See Results
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="./src/env.js"></script>
+  <script src="./src/app.js"></script>
+</html>

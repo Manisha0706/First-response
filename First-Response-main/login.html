@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="icon" type="image/svg+xml" href="./imgs/logo.png" />
+        <link rel="stylesheet" href="./styles/login.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"/>
+        <style>
+            #oauth-buttons {
+                margin-top: 20px;
+                margin-left:70px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h2 class="title">FIRST RESPONSE</h2>
+            <form class="login">
+                <h2>Login</h2>
+                <input type="text" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit" id="myButton">Login</button>
+                <div class="links">
+                <a href="./ca.html">Register</a>
+                </div>
+                <br/>
+                <!-- <span>or</span> -->
+                <!-- <div id="oauth-buttons">
+                    <a href="#" id="google-auth-link">
+                    <img id="gimg" src="./imgs/logos_google.png" alt="Sign up with Google" />
+                    </a>
+                </div> -->
+            </form>
+        </div>
+        <script src="./src/bundle/login.bundle.js"></script>
+    </body>
+</html>

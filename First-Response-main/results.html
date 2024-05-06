@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/results.css" />
+    <link rel="stylesheet" href="./styles/sym.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    <title>Results</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-row">
+        <ul>
+          <li class="underline">
+            <a href="./homes.html">Back</a>
+          </li>
+        </ul>
+        <!-- <p class="disclaimer"> Please contact professional doctor for proper diagnosis</p>  -->
+      </div>
+    </header>
+    <div class="pop-up-bg">
+      <div class="popup">
+        <div class="text">Oops no results found :(</div>
+        <div class="button-area">
+          <a href="./sym.html">
+            <div class="btn-grey">
+              Back
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="container">
+        <table class="padding-left: 20px; padding-right: 20px">
+          <thead>
+            <tr class="table-header">
+              <th class="diseaseName">Disease</th>
+              <th class="accuracy">Accuracy</th>
+              <th class="doctorSpecialization">Specialization</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="./src/env.js"></script>
+  <script src="./src/results.js"></script>
+</html>

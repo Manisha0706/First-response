@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="icon" type="image/svg+xml" href="./imgs/logo.png" />
+    <link rel="stylesheet" href="./styles/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+</head>
+<body>
+    <div class="profile-container">
+        <h1 class="title">PROFILE</h1>
+        <h3 class="uid">User ID</h3>
+        <form class="profile">
+            <div id="info">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value=""><br>
+            </div>
+            <div id="info">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" value=""><br>
+            </div>
+            <div id="info">
+                <label for="gender">Gender:</label>
+                <input type="text" id="gender" name="gender" value=""><br>
+            </div>
+            <div id="info">
+                <label for="bg">Blood Group:</label>
+                <input type="text" id="bg" name="bg" value=""><br>
+            </div>
+            <div id="info">
+                <label for="certid">First Aider Certificate ID:</label>
+                <input type="text" id="certid" name="certid" value=""><br>
+            </div>
+            <div id="info">
+                <label for="valid">Valid Till:</label>
+                <input type="date" id="valid" name="valid" value=""><br>
+            </div>
+            <div id="info">
+                <label for="phone">Contact Number:</label>
+                <input type="number" id="phone" name="phone" value=""><br>
+            </div>
+            <div id="info">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="" disabled><br>
+            </div>
+            <div id="info">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" value=""></textarea><br>
+            </div>
+            <button type="submit" id="save">Save</button>
+        </form>
+        <div class="button">
+            <button id="logout" style="font-family: Balsamiq Sans;">Logout</button>
+        </div>
+    </div>
+    <script src="./src/bundle/profile.bundle.js"></script>
+</body>
+</html>

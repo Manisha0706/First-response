@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="icon" type="image/svg+xml" href="./imgs/logo.png" />
+    <link rel="stylesheet" href="./styles/login.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        #oauth-buttons {
+            margin-top: 20px;
+            margin-left:70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2 class="title">FIRST RESPONSE</h2>
+        <form class="login">
+            <h2>Create Account</h2>
+            <input type="text" name="name" placeholder="Name" autocomplete="name" required>
+            <input type="email" name="email" placeholder="Email" autocomplete="emailadd@email.com" required>
+            <input type="number" name="phone" placeholder="Phone Number" autocomplete="9999999999" required>
+            <input type="password" name="password" placeholder="Password" autocomplete="new-password" required>
+            <button type="submit" id="myButton">Create Account</button>
+            <div class="links">
+            <a href="./login.html">Login</a>
+            </div>
+            <br/>
+            <!-- <span>or</span> -->
+            <!-- <div id="oauth-buttons">
+                <a href="#" id="google-auth-link">
+                <img id="gimg" src="./imgs/logos_google.png" alt="Sign up with Google" />
+                </a>
+            </div> -->
+        </form>
+    </div>
+    <script src="./src/bundle/ca.bundle.js"></script>
+</body>
+</html>
